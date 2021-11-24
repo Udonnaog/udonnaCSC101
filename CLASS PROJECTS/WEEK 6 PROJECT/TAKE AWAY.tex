@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage{amsmath}
+\title{Cardano's Formula for Cubic Equations}
+\author{OGBODO UDONNA}
+\date{November 18, 2021}
+
+\begin{document}
+	\maketitle
+	 \section*{Abstract}Gerolamo Cardano was born in Pavia in 1501 as the illegitimate child of a jurist. He attended the University of Padua and became a physician in the town of Sacco, after being rejected by his home town of Milan. He became one of the most famous doctors in all of Europe, having treated the Pope. He was also an astrologer and an avid gambler, to which he wrote the Book on Games of Chance, which was the first serious treatise on the mathematics of probability |1|.
+	\section{Introduction to Cardano's Formula} Cardano's formula for solution of cubic equations for an equation like ;
+	\begin{equation*}
+		x^3 + a_1x^2 + a_3 = 0
+	\end{equation*}
+the parameters Q, R, S and T can be computed thus,
+\begin{equation*}
+	Q= \frac{3a_2-a_1^2}{a}\\
+\end{equation*}
+	\begin{equation*}
+	R=\frac{9a_1a_2-27a_3-2a_1^3}{54}\\
+\end{equation*}
+	\begin{equation*}
+	S=3\sqrt{R+\sqrt{-Q^3+R^2}}
+\end{equation*}
+to give the roots;
+\begin{equation*}
+	r_1= S+T -\frac{1}{3}a_1\\
+\end{equation*}
+\begin{equation*}
+	r_2= \frac{-(S+T)}{2}-\frac{a_1}{3}+i\frac{\sqrt{3}(s-T)}{2}\\
+\end{equation*}
+	\begin{equation*}
+	r_3= \frac{-(S+T)}{2}-\frac{a_1}{3}-i\frac{\sqrt{3}(s-T)}{2}\\
+\end{equation*}
+\begin{equation*}
+		Note: x^3 must not have a co-efficient
+\end{equation*}
+\subsection{Some Examples}
+	\begin{equation*}
+		 x^3-3x^2+4=0
+	\end{equation*}
+\begin{equation*}
+		2x^3+6x^2+1=0
+	\end{equation*}
+
+\section*{References} |1| P. Scarani, "Out of control: vita di gerolamo cardano (1501-1576)," Pathologica, vol. 93, pp. 565-574, 2001.
+\end{document}
